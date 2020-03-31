@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Andy Oldroyd</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://oldroyd.me/"/>
+  <updated>2020-03-31T11:40:08.915Z</updated>
+  <id>http://oldroyd.me/</id>
+  
+  <author>
+    <name>Andy Oldroyd</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Configuring Azure for Machine Learning with Keras and Tensorflow</title>
+    <link href="http://oldroyd.me/blog/2017/03/27/configuring-azure-for-machine-learning/"/>
+    <id>http://oldroyd.me/blog/2017/03/27/configuring-azure-for-machine-learning/</id>
+    <published>2017-03-26T23:00:00.000Z</published>
+    <updated>2020-03-31T11:40:08.915Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Due to recent hype I have decided to look into machine learning and its uses. I have a decent computer powered by a Nvidia 980ti, which is more than capable of machine learning. This is great for most tasks, but as I get a bunch of Azure credits each month with my MSDN licence, I figured I would make the most of Microsoft’s new &lt;a href=&quot;http://gpu.azure.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GPU servers&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This post is aimed at getting an environment up and running that works with &lt;a href=&quot;https://www.tensorflow.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Tensorflow&lt;/a&gt; and &lt;a href=&quot;https://keras.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Keras&lt;/a&gt;. I decided to use Python 3 over 2. &lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>A brief overview of VR</title>
+    <link href="http://oldroyd.me/blog/2016/08/17/overview-of-vr/"/>
+    <id>http://oldroyd.me/blog/2016/08/17/overview-of-vr/</id>
+    <published>2016-08-17T00:00:00.000Z</published>
+    <updated>2020-03-31T11:40:08.925Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;In this post I hope to explain, without using too much &lt;a href=&quot;/blog/2016/08/05/glossary-of-vr-terms/&quot;&gt;jargon&lt;/a&gt;, what Virtual Reality (VR) is. There are a lot of exciting things happening in the area of VR right now, so information gets outdated fast. The basic information in this post will largely remain the same, but some of the vendor and technology specific parts will be updated over time.&lt;br&gt;
+    
+    </summary>
+    
+      <category term="blog" scheme="http://oldroyd.me/categories/blog/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Glossary of VR terms</title>
+    <link href="http://oldroyd.me/blog/2016/08/05/glossary-of-vr-terms/"/>
+    <id>http://oldroyd.me/blog/2016/08/05/glossary-of-vr-terms/</id>
+    <published>2016-08-05T00:00:00.000Z</published>
+    <updated>2020-03-31T11:40:08.925Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;I have found there to be quite a lot of jargon surrounding VR, so I’ve to put together a rough list of what some of the words actually mean. This is by no means a comprehensive list, and it only focuses on terms in the context of VR. The list also does not contain some of the more controversial words like “metaverse”, where there seem to be arguments over what it even is.&lt;br&gt;
+    
+    </summary>
+    
+      <category term="blog tutorial" scheme="http://oldroyd.me/categories/blog-tutorial/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Configuring Node &amp; NPM to work within a corperate Windows environment</title>
+    <link href="http://oldroyd.me/blog/2016/08/01/configuring-node-behind-a-proxy/"/>
+    <id>http://oldroyd.me/blog/2016/08/01/configuring-node-behind-a-proxy/</id>
+    <published>2016-08-01T00:00:00.000Z</published>
+    <updated>2020-03-31T11:40:08.923Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;For those of you who need to use NPM at work, you may have found that some things don’t work out of the box. For example, your work’s corporate proxy to cause a few issues. I also had some issues with particular packages not working in the default install location.&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Obligatory First Post</title>
+    <link href="http://oldroyd.me/blog/2016/07/20/obligatory-first-post/"/>
+    <id>http://oldroyd.me/blog/2016/07/20/obligatory-first-post/</id>
+    <published>2016-07-20T00:00:00.000Z</published>
+    <updated>2020-03-31T11:40:08.925Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;So, I started writing a blog. This means that I need to write one of those obligatory first blog posts where I tell you about me and why 
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
