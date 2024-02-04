@@ -1,0 +1,291 @@
+/* Core Body */
+
+body {
+  margin: 0;
+  margin-top: 75px;
+  color: #34495e;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+table {
+  width: 100%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.125);
+  margin: 1em auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+table thead {
+  background-color: #ddd;
+}
+table thead th {
+  padding: 5px;
+  min-width: 20px;
+}
+table tbody tr:nth-child(2n) {
+  background-color: #eee;
+}
+table tbody td {
+  padding: 5px;
+  vertical-align: text-top;
+}
+
+@media screen and (min-width: 770px) {
+  .wrap {
+    width: 770px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .wrap-large {
+    width: 1024px;
+    margin: 0 auto;
+  }
+}
+
+.wrap-large {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.wrap {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+a {
+  color: #09a3d5;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover,
+a:active {
+  color: #066b8c;
+  text-decoration: none;
+}
+
+/* Menu */
+@media screen and (min-width: 770px) {
+  .menu {
+    /*padding: 20px 100px;*/
+  }
+}
+.menu {
+  padding: 10px 20px 0px;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 4px 3px -2px rgba(0, 0, 0, 0.2); 
+  z-index: 100;
+}
+.menu .title {
+  float: left;
+  font-size: 2em;
+  font-weight: 600;
+}
+.menu .nav {
+  float: right;
+}
+.menu ul.nav,
+ul.post-list {
+  margin: 0px 30px 0px 0px;
+  padding: 0;
+  list-style-type: none;
+}
+.menu ul {
+  margin: 1rem 0;
+}
+.menu ul,
+menu,
+dir {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+.menu .nav-list-item {
+  display: inline-block;
+  padding: 19px 10px;
+}
+.menu li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+a.nav-list-link.active,
+a.nav-list-link:hover,
+a.post-title-link:hover {
+  border-bottom: 2px solid #09a3d5;
+}
+.menu .nav-list-item a {
+  font-size: 1.2em;
+  line-height: 1.4;
+}
+.menu a,
+.menu a:active {
+  color: #34495e;
+  text-decoration: none;
+}
+.blue-text {
+  color: #09a3d5;
+}
+
+/* Archives */
+.post-item {
+  padding: 2px 0 0 50px;
+}
+.post-info {
+  float: left;
+  width: 145px;
+  color: #7f8c8d;
+}
+.post-title-link {
+  display: block;
+  margin-left: 145px;
+  word-break: break-all;
+}
+/* Footer */
+footer {
+  margin-top: 6em;
+  margin-bottom: 1em;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  padding-bottom: 1px;
+}
+footer .copyright {
+  color: #aaa;
+  font-size: 0.8em;
+  font-weight: 100;
+}
+
+/* posts and pages */
+.text-muted {
+  color: #7f8c8d;
+  font-size: 1em;
+}
+h1 {
+  font-size: 2em;
+}
+p {
+  font-size: 1.2em;
+}
+blockquote {
+  margin: 2em 0;
+  padding-left: 20px;
+  border-left: 4px solid #09a3d5;
+}
+img {
+  max-width: 100%;
+  display: block;
+  margin: 1em auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.post toc,
+.post ol,
+.post li {
+  list-style-type: none;
+}
+.post code {
+  background-color: #f5f2f0;
+}
+
+/* Index page */
+.blue-block {
+  background: #09a3d5;
+  width: 100%;
+  height: 50vh;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 4px 3px -2px rgba(0, 0, 0, 0.2); 
+}
+
+.header-contents {
+  position:absolute;
+  left: 0; 
+  right: 0;
+  margin-left: auto; 
+  margin-right: auto;
+  padding-top: 5em;
+  width: 450px;
+  background: rgb(9,163,213);
+  background: radial-gradient(circle, rgba(9,163,213,1) 25%, rgba(9,163,213,0) 100%);
+}
+
+.blue-block img {
+  max-width: 240px;
+  border-radius: 50%;
+  border: 0.2em solid rgba(255, 255, 255, 1);
+}
+
+.blue-block .title {
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.blue-block hr {
+  margin: 15px auto 25px;
+  padding: 0;
+  max-width: 250px;
+  border: 0;
+  border-top: solid 4px;
+  color: white;
+}
+
+.blue-block .sub-title {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.container {
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 1024px) {
+  .left {
+    flex: 1;
+    padding: 1em;
+  }
+  .right {
+    flex: 1;
+    padding: 1em;
+  }
+}
+
+.container h3 {
+  text-align: center;
+}
+
+.title {
+  font-size: 3em;
+  text-align: center;
+}
+
+.title hr {
+  margin: 0px auto 25px;
+  padding: 0;
+  max-width: 250px;
+  border: 0;
+  border-top: solid 4px;
+  color: #09a3d5;
+}
+
+.gray {
+  background-color: #f7f7f7;
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2), 0px -4px 3px rgba(0, 0, 0, 0.2);
+}
