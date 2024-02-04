@@ -225,6 +225,13 @@ img {
   background: radial-gradient(circle, rgba(9,163,213,1) 25%, rgba(9,163,213,0) 100%);
 }
 
+@media screen and (max-width: 770px) {
+  .header-contents {
+    width: 200px;
+    font-size: 3vw;
+  }
+}
+
 .blue-block img {
   max-width: 240px;
   border-radius: 50%;
